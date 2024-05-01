@@ -2,7 +2,7 @@ autoinstall:
   version: 1
   identity:
     hostname: ubuntu-desktop
-    username: Skillday
+    username: %USERNAME%
     password: %PASSWORD%
   storage:
     layout:
