@@ -3,7 +3,7 @@ autoinstall:
   identity:
     hostname: ubuntu-desktop
     username: Skillday
-    password: "E&bt8y99AN%3bZJMUBtCUENJE$E55Qq#Zc9sc8V&rgEyzC8zEqZG"
+    password: %PASSWORD%
   storage:
     layout:
       name: lvm
