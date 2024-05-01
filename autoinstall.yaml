@@ -8,18 +8,14 @@ autoinstall:
     layout:
       name: lvm
   snaps:
-    - name: spotify
+    - name: bitwarden
       classic: false
-    - name: telegram-desktop
+    - name: notepad-plus-plus
       classic: false
-    - name: obsidian
-      classic: true
-    - name: code
-      classic: true
+    - name: openra
+      classic: false
+    - name: signal-desktop
+      classic: false
   packages:
     - vim
   late-commands:
-    - curtin in-target -- wget https://repo2.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-3_all.deb
-    - curtin in-target -- dpkg -i ./protonvpn-stable-release_1.0.3-3_all.deb
-    - curtin in-target -- apt update
-    - curtin in-target -- apt install -y proton-vpn-gnome-desktop
