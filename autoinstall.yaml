@@ -2,8 +2,8 @@ autoinstall:
   version: 1
   identity:
     hostname: ubuntu-desktop
-    username: %USERNAME%
-    password: %PASSWORD%
+    username: ${{ secrets.USERNAME }}
+    password: ${{ secrets.PASSWORD }}
   storage:
     layout:
       name: lvm
